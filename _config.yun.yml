@@ -1,0 +1,172 @@
+mode: auto
+
+
+bg_image:
+  enable: true
+  url: /images/wallpaper2.jpg
+  dark: /images/wallpaper1.jpg
+  # blur: 30px # 设置背景模糊程度
+  opacity: 0.8
+
+avatar:
+  enable: true
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  url: /images/girl1.jpg
+  status:
+    enable: true
+    emoji: 🐳
+    message: 间歇性躺平选手
+
+
+comment:
+  candidates:
+    - waline
+    # - giscus
+  tips:
+    - 一起玩叭。
+
+
+github_issues:
+  enable: false
+
+github_discussions:
+  enable: false
+
+# disqusjs:
+#   enable: false
+#   shortname: yunyoujun
+#   apikey: ouoGQCaamOKdJgyZU5DKcpFnRIg3SNzvk0nwygPtlcTRJuE68c8igvrZGW4wAJoN
+
+# https://github.com/laymonage/giscus
+giscus:
+  enable: false
+  repo: Echoleisure/echoleisure.github.io
+  repo-id:
+  category-id:
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: light
+
+ 
+
+engine_search:
+  enable: false
+
+
+
+google_analytics:
+  enable: true
+  id: G-1LL0D86CY9
+
+google_adsense:
+  enable: true
+  client: ca-pub-2245427233262012
+
+# post_edit:
+#   enable: true
+#   url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
+
+albums:
+  enable: true
+
+girls:
+  enable: true
+
+tags:
+  动画: crimson
+  # 漫画: orange
+  Parcel: "#21374b"
+  学习: saddlebrown
+  MAD: crimson
+  教程: royalblue
+  笔记: dimgray
+  分享: "#0078e7"
+  随笔: mediumpurple
+  # Blender: "#d04d2d"
+  Linux: "#2577b1"
+  中传: "#ccb44b"
+  # 部落: "#DD306A"
+  # 科幻: midnightblue
+  # 蚂蚁森林: "#54a892"
+
+categories:
+  云游的小视频: "#FB7299"
+
+notice:
+  enable: true
+  content: Thanks for playing my game.
+
+pages:
+  - name: 我的小伙伴们
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
+  - name: 喜欢的女孩子
+    url: /girls/
+    icon: icon-women-line
+    color: hotpink
+
+menu:
+  custom:
+    title: 留言板
+    path: /about/#comment
+    icon: icon-clipboard-line
+
+cursor:
+  enable: true
+
+baidu_push: true
+
+google_tagmanager:
+  enable: true
+  id: GTM-M9KWR9L
+
+footer:
+  since: 2022
+  live_time:
+    enable: true
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: '2022-05-08T00:00:00'
+
+say:
+  api: https://el-bot-api.vercel.app/api/words/young
+  hitokoto:
+    enable: true
+
+social:
+  - name: GitHub
+    link: https://github.com/Echoleisure
+    icon: icon-github-line
+    color: "#6e5494"
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=436531540
+    icon: icon-netease-cloud-music-line
+    color: "#C20C0C"
+  - name: E-Mail
+    link: mailto:echozhang1631@163.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  
+
+banner:
+  enable: true
+  title: 关于非主流的1w种证明
+  border: true
+  cloud:
+    enable: true
+    color: white
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+  trianglify:
+    enable: false
+    cellSize: 75
+    width: 800
+    height: 600
+    palette: '["YlGnBu", "GnBu", "Purples", "Blues"]'
+    opacity: 0.5
