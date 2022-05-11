@@ -42,11 +42,11 @@ tags: 自动化测试，mac
 ### chromedriver安装
     选择与自己chrome版本对应的chromedriver版本
     如我的版本为：
-  ![chrome版本](./pytest/pytest2.PNG)
+  ![chrome版本](./pytest/pytest2.png)
    找到chromedriver版本对应下载，保持大版本一致即可。
-  ![chromedriver](./pytest/pytest3.PNG)
+  ![chromedriver](./pytest/pytest3.png)
   下载解压后将chromedriver放入/usr/bin。
-  ![bin](./pytest/pytest4.PNG)
+  ![bin](./pytest/pytest4.png)
   Done.
 
 ### 测试代码

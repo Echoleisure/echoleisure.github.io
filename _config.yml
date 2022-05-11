@@ -103,6 +103,6 @@ theme: yun
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://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@github.com/Echoleisure/echoleisure.github.io.git
+  repo: https://github.com/Echoleisure/echoleisure.github.io.git
   branch: master # 默认使用 master 分支
   message: new paper # 你可以自定义此次部署更新的说明
