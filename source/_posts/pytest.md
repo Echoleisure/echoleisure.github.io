@@ -4,7 +4,7 @@ date: 2022-05-11 16:13:46
 tags: 自动化测试，mac
 ---
 
-# 这句可以让网页链接图片显示
+<!-- 这句可以让网页链接图片显示 -->
 <meta name="referrer" content="no-referrer"/>
 
 # Python+Selenium+Unitest
