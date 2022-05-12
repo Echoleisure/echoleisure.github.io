@@ -3,8 +3,8 @@ mode: auto
 
 bg_image:
   enable: true
-  url: /images/wallpaper2.jpg
-  dark: /images/wallpaper1.jpg
+  url: https://cdn.jsdelivr.net/gh/Echoleisure/echoleisure.github.io@latest/images/wallpaper2.jpg
+  dark: https://cdn.jsdelivr.net/gh/Echoleisure/echoleisure.github.io@latest/images/wallpaper1.jpg
   # blur: 30px # 设置背景模糊程度
   opacity: 0.8
 
@@ -171,3 +171,13 @@ banner:
     palette: '["YlGnBu", "GnBu", "Purples", "Blues"]'
     opacity: 0.5
 
+cdn:
+  pre: https://cdn.jsdelivr.net/gh/Echoleisure/echoleisure.github.io@latest
+  css:
+  js:
+    base:
+    async:
+      # 默认引入的图标资源，使用 iconfont
+      iconfont: //at.alicdn.com/t/font_1140697_dxory92pb0h.js
+    defer:
+  
