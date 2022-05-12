@@ -1,6 +1,10 @@
 mode: auto
 
-
+head:
+  js:
+    async:
+      # 这里是你从 iconfont 处获得的图标链接。
+      iconfont: //at.alicdn.com/t/font_3395079_z6j2qo8rtr.js
 bg_image:
   enable: true
   url: https://cdn.jsdelivr.net/gh/Echoleisure/echoleisure.github.io@latest/images/wallpaper2.jpg
@@ -100,14 +104,18 @@ notice:
   content: Thanks for playing my game.
 
 pages:
-  - name: 我的小伙伴们
-    url: /links/
-    icon: icon-genderless-line
+  - name: 进击的雪豆
+    url: /albums/
+    icon: icon-gougou
     color: dodgerblue
   - name: 喜欢的女孩子
     url: /girls/
-    icon: icon-women-line
-    color: hotpink
+    icon: icon-free_panel_girl
+    color: 
+  - name: cat
+    url: /cat/
+    icon: icon-cat
+    color: 
 
 menu:
   custom:
