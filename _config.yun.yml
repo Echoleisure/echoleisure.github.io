@@ -155,7 +155,7 @@ social:
     icon: icon-netease-cloud-music-line
     color: "#C20C0C"
   - name: E-Mail
-    link: mailto:echozhang1631@163.com
+    link: mailto:495086171@qq.com
     icon: icon-mail-line
     color: "#8E71C1"
   
@@ -181,7 +181,7 @@ banner:
 
 wordcloud:
   enable: true
-  
+
 # cdn:
 #   pre: https://cdn.jsdelivr.net/gh/Echoleisure/echoleisure.github.io@latest
 #   css:
