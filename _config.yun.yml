@@ -179,6 +179,9 @@ banner:
     palette: '["YlGnBu", "GnBu", "Purples", "Blues"]'
     opacity: 0.5
 
+wordcloud:
+  enable: true
+  
 # cdn:
 #   pre: https://cdn.jsdelivr.net/gh/Echoleisure/echoleisure.github.io@latest
 #   css:

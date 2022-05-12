@@ -1,9 +1,12 @@
 ---
 title: 关于「伪」测开攻城🦁️试图摸索入门
 date: 2022-05-11 16:13:46
-tags: 自动化测试，mac
+tags: 
+  - 自动化测试
+  - mac
+  - selenium
+  - python
 ---
-
 <!-- 这句可以让网页链接图片显示 -->
 <meta name="referrer" content="no-referrer"/>
 
