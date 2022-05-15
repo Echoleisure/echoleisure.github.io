@@ -7,8 +7,8 @@ head:
       iconfont: //at.alicdn.com/t/font_3395079_z6j2qo8rtr.js
 bg_image:
   enable: true
-  url: https://cdn.jsdelivr.net/gh/Echoleisure/echoleisure.github.io@latest/images/wallpaper2.jpg
-  dark: https://cdn.jsdelivr.net/gh/Echoleisure/echoleisure.github.io@latest/images/wallpaper1.jpg
+  url: /images/wallpaper2.jpg
+  dark: /images/wallpaper1.jpg
   # blur: 30px # 设置背景模糊程度
   opacity: 0.8
 
@@ -182,13 +182,33 @@ banner:
 wordcloud:
   enable: true
 
-# cdn:
-#   pre: https://cdn.jsdelivr.net/gh/Echoleisure/echoleisure.github.io@latest
-#   css:
-#   js:
-#     base:
-#     async:
-#       # 默认引入的图标资源，使用 iconfont
-#       iconfont: //at.alicdn.com/t/font_1140697_dxory92pb0h.js
-#     defer:
-  
+cdn:
+  pre: https://cdn.jsdelivr.net/gh/Echoleisure/echoleisure.github.io@master
+
+
+aplayer:
+  global: true
+  meting: true
+  # https://github.com/metowolf/MetingJS/tree/v1.2#option
+  widget:
+    enable: true
+    autoplay: false
+    # theme: "#2980b9"
+    loop: all
+    order: list
+    preload: auto
+    volume: 0.7
+    mutex: true
+    lrcType: 0
+    listFolded: false
+    listMaxHeight: 340px
+    audio:
+      - name: 星宿计时
+        artist: 杉田朗/洛天依
+        url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/audio/star-timer.mp3
+        cover: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0.jpg
+    meting:
+      enable: true
+      id: 308168565
+      server: netease
+      type: playlist
