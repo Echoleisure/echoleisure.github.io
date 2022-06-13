@@ -7,7 +7,7 @@ head:
       iconfont: //at.alicdn.com/t/font_3395079_z6j2qo8rtr.js
 bg_image:
   enable: true
-  url: /images/wallpaper2.jpg
+  url: /images/wallpaper1.jpg
   dark: /images/wallpaper1.jpg
   # blur: 30px # 设置背景模糊程度
   opacity: 0.8
@@ -182,8 +182,8 @@ banner:
 wordcloud:
   enable: true
 
-cdn:
-  pre: https://cdn.jsdelivr.net/gh/Echoleisure/echoleisure.github.io@master
+# cdn:
+#   pre: https://cdn.jsdelivr.net/gh/Echoleisure/echoleisure.github.io@master
 
 
 aplayer:
